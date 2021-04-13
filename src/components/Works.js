@@ -12,7 +12,7 @@ export default function Works() {
                 trigger: ".work",
                 start: "100 bottom",
                 end: "300 center",
-                markers: true,
+                // markers: true,
                 scrub: 1
             },
             duration: 3,
