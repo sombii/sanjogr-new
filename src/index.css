@@ -71,7 +71,7 @@
 .line0 {
     top: 50%;
     left: 100%;
-    width: 200%;
+    width: 100%;
 }
 
 .line1 {
@@ -81,7 +81,8 @@
 }
 
 .gray-border {
-    border-color: #6a6a6a;
+    /*border-color: #6a6a6a;*/
+    border-color: #383838;
 }
 
 .visit-btn-overlay {
