@@ -1,6 +1,10 @@
 import {gsap} from "gsap";
 import {useEffect} from "react";
 import {ScrollTrigger} from "gsap/ScrollTrigger"
+import {TextPlugin} from "gsap/TextPlugin"
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(TextPlugin);
+
 
 export default function Home() {
 
@@ -21,8 +25,8 @@ export default function Home() {
                             start: "-100px bottom",
                             end: "center center",
                             // end: () => "+=" + document.querySelector(".heading").offsetHeight,
-                            scrub: 0.1,
-                            markers: true,
+                            scrub: 0.2,
+                            // markers: true,
                             toggleActions: "restart pause reverse pause",
                         }}})
                 tl2.to(".head-ani-1", {

@@ -80,3 +80,24 @@
     border-color: #6a6a6a;
 }
 
+.visit-btn-overlay {
+    width: 0;
+    height: 0;
+    transition: all 200ms ease-in-out;
+    border: 1px solid white;
+}
+
+.visit-btn-overlay-txt {
+    display: none;
+    opacity: 0;
+}
+
+.visit-btn:hover .visit-btn-overlay {
+    width: 5rem;
+    height: 5rem;
+}
+
+.visit-btn:hover .visit-btn-overlay-txt {
+    display: block;
+    opacity: 1;
+}
