@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --green-accent: rgba(53, 236, 181, 0.5);
+    --gray-text: #e5e5e5
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.h1 {
+    font-size: 9vw;
+    line-height: 1;
+    /*letter-spacing: 0.3rem;*/
 }
+
+.circle {
+    font-size: 10rem;
+}
+
+.title {
+    line-height: 1;
+    font-size: 6vw;
+    text-shadow: 0.2em 0.2em 0 var(--green-accent);
+}
+
+.works {
+    line-height: 1.2em !important;
+}
+
+.number {
+    font-size: 20vw;
+    -webkit-text-stroke-color: #fafafa;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #000000;
+}
+
+.outliner {
+    -webkit-text-stroke-color: #fafafa;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #000000;
+}
+
+.target {
+    top: 0;
+    bottom: 0;
+    left: -0.15em;
+    right: -0.15em;
+}
+
+.target0 {
+    top: 0.12em;
+    bottom: 0.12em;
+    left: -0.03em;
+    right: -0.03em;
+}
+
+.target1 {
+    top: 0.22em;
+    bottom: 0.22em;
+    left: -0.03em;
+    right: -0.03em;
+}
+
+.line0 {
+    top: 50%;
+    left: 100%;
+    width: 200%;
+}
+
+.line1 {
+    top: -0.2em;
+    bottom: -0.2em;
+    left: 50%;
+}
+
+.gray-border {
+    border-color: #6a6a6a;
+}
+
