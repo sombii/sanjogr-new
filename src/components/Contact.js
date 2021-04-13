@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 import {gsap} from "gsap";
-import {ScrollTrigger} from "gsap/ScrollTrigger";
+// import {ScrollTrigger} from "gsap/ScrollTrigger";
 
 export default function Contact() {
 
@@ -52,7 +52,7 @@ export default function Contact() {
                         <span>TOUCH</span>
                     </p>
                 </div>
-                <div className="absolute -bottom-1/3 lg:-bottom-14 left-10 rounded-full bg-white w-20 h-20 text-black flex justify-center items-center italic"><span>ENDE</span></div>
+                <div className="absolute -bottom-1/3 lg:-bottom-14 left-10 lg:left-24 rounded-full bg-white w-20 h-20 text-black flex justify-center items-center italic"><span>ENDE</span></div>
             </div>
         </>
     )
