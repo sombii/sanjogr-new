@@ -42,14 +42,14 @@ export default function Contact() {
                     <div className="flex flex-col items-start lg:items-end space-y-2">
                         <span>09807123304</span>
                         <span className="border-b-4 border-white"><a href="mailto:SANJOG@SOMBEX.COM">SANJOG@SOMBEX.COM</a></span>
-                        <span>Hetauda, MAKAWANPUR, NEPAL</span>
+                        <span>HETAUDA, MAKAWANPUR, NEPAL</span>
                     </div>
                 </div>
                 <div className="mr-10 contact-txt">
                     <p className="text-5xl md:text-7xl block font-bold works flex flex-col text-left ">
-                        <span>SAY <b className="outliner namaste">namaste</b>.</span>
+                        <span>SAY <b className="outliner namaste">namaste</b></span>
                         <span>LET'S GET IN</span>
-                        <span>TOUCH</span>
+                        <span>TOUCH.</span>
                     </p>
                 </div>
                 <div className="absolute -bottom-1/3 lg:-bottom-14 left-10 lg:left-24 rounded-full bg-white w-20 h-20 text-black flex justify-center items-center italic"><span>ENDE</span></div>
