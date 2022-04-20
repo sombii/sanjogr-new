@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 function App() {
     return (
         <div className="text-gray-50 bg-black font-workSans overflow-x-hidden">
-            <div className="max-width mx-auto">
+            <div className="max-w-[1600px] mx-auto">
                 <Home/>
                 <Works/>
                 <Contact/>

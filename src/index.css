@@ -10,25 +10,25 @@
     --gray-text: #e5e5e5
 }
 
-.max-width {
-    max-width: 1600px;
-}
+/*.max-width {*/
+/*    max-width: 1600px;*/
+/*}*/
 
-.h1 {
-    font-size: 9vw;
-    line-height: 1;
-    /*letter-spacing: 0.3rem;*/
-}
+/*.h1 {*/
+/*    font-size: 9vw;*/
+/*    line-height: 1;*/
+/*    !*letter-spacing: 0.3rem;*!*/
+/*}*/
 
-.circle {
-    font-size: 10rem;
-}
+/*.circle {*/
+/*    font-size: 10rem;*/
+/*}*/
 
-.title {
-    line-height: 1;
-    font-size: 6vw;
-    text-shadow: 0.2em 0.2em 0 var(--green-accent);
-}
+/*.title {*/
+/*    line-height: 1;*/
+/*    font-size: 6vw;*/
+/*    text-shadow: 0.2em 0.2em 0 var(--green-accent);*/
+/*}*/
 
 .works {
     line-height: 1.2em !important;

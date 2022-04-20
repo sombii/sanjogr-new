@@ -19,6 +19,9 @@ export default function Home() {
         tl.from(".heading", {
             y: 200,
             stagger: 0.4
+        }).to(".heading", {
+            y: 0,
+            stagger: 0.4
         })
         blinkTl.to(".blink-eye", {
             y: "-10%",
@@ -26,7 +29,7 @@ export default function Home() {
             yoyo: true,
             onCompleteParams: ["{self}"],
             onComplete: function () {
-                gsap.delayedCall((4 * Math.random() + 0.4), blinkTl.restart, [], blinkTl)
+                gsap.delayedCall((1 * Math.random() + 0.4), blinkTl.restart, [], blinkTl)
             }
             // reversed: true,
         })
@@ -57,9 +60,9 @@ export default function Home() {
 
     return (
         <>
-            <div
-                className="flex flex-col items-center md:min-h-screen px-10 sm:px-20 mx-auto opacity-0 home">
-                <div className="relative circle self-start leading-none mt-10 mb-4">
+
+            <div className="flex flex-col items-center md:min-h-screen px-10 sm:px-20 mx-auto opacity-0 home">
+                <div className="relative text-[10rem] self-start leading-none mt-10 mb-4">
                     <div className="absolute rounded-full border gray-border target">
                         <div className="relative h-full">
                             <div className="absolute line0 border-t gray-border">
@@ -124,7 +127,7 @@ export default function Home() {
                     {/*<div className="absolute w-4 h-4 bg-white rounded-full top-16 right-6"/>*/}
                     <span className="invisible">a</span>
                 </div>
-                <div className="mt-20 sm:mt-0 mb-10 text-white h1 font-bold text-right uppercase">
+                <div className="mt-20 sm:mt-0 mb-10 text-white text-[9vw] leading-none font-bold text-right uppercase">
                     <div className="overflow-hidden"><p className="heading head-ani-1"><span
                         className="outliner">Sanjog</span>Rai</p></div>
                     <div className="overflow-hidden"><p className="heading head-ani-2"><span

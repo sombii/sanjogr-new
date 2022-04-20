@@ -7,10 +7,10 @@ export default function Contact() {
     useEffect(() => {
 
         gsap.to(".namaste", {
-            duration: 2,
-            text: "hi-hello",
-            repeatDelay:1.5,
-            repeat:-1,
+            duration: 3,
+            text: "NAMASTE",
+            repeatDelay: 3,
+            repeat: -1,
             yoyo: true
         })
 
@@ -35,25 +35,22 @@ export default function Contact() {
 
 
     return (
-        <>
-            <div className="grid grid-cols-1 lg:grid-cols-2 auto-rows-max content-center items-center px-10 sm:px-20 relative work mb-48 mt-0 lg:mt-32 contact">
-                <h2 className="mb-10 text-lg text-red-400 lg:col-span-2 font-bold">CONTACT</h2>
-                <div className="text-left lg:text-right text-xl font-bold relative self-start my-4 contact-meta mr-10">
-                    <div className="flex flex-col items-start lg:items-end space-y-2">
-                        <span>09807123304</span>
-                        <span className="border-b-4 border-white"><a href="mailto:SANJOG@SOMBEX.COM">SANJOG@SOMBEX.COM</a></span>
-                        <span>HETAUDA, MAKAWANPUR, NEPAL</span>
+        <div className="px-10 sm:px-20 relative  my-16 lg:my-32  flex justify-center flex-col">
+            <h2 className="mb-10 text-lg text-red-400 lg:col-span-2 font-bold">CONTACT</h2>
+            <div className="space-y-28">
+                <div className="leading-relaxed flex flex-col text-left mb-16">
+                    <span className="font-bold text-6xl md:text-9xl">SAY <b className="outliner namaste">HELLO</b></span>
+                    <span className="text-4xl md:text-5xl">LET'S GET IN TOUCH.</span>
+                </div>
+                <div className=" text-5xl font-medium relative my-4 mr-10">
+                    <div className="flex flex-col items-start space-y-4">
+                        <span className="border-b-4 border-white"><a href="tel:9807123304">9807123304</a></span>
+                        <span className="border-b-4 border-white"><a
+                            href="mailto:SANJOG@SOMBEX.COM">SANJOG@SOMBEX.COM</a></span>
+                        <span>HETAUDA, BAGMATI, NEPAL</span>
                     </div>
                 </div>
-                <div className="mr-10 contact-txt">
-                    <p className="text-5xl md:text-7xl block font-bold works flex flex-col text-left ">
-                        <span>SAY <b className="outliner namaste">namaste</b></span>
-                        <span>LET'S GET IN</span>
-                        <span>TOUCH.</span>
-                    </p>
-                </div>
-                <div className="absolute -bottom-1/3 lg:-bottom-14 left-10 lg:left-24 rounded-full bg-white w-20 h-20 text-black flex justify-center items-center italic"><span>ENDE</span></div>
             </div>
-        </>
+        </div>
     )
 }
