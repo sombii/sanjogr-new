@@ -35,7 +35,7 @@ export default function Contact() {
 
 
     return (
-        <div className="px-10 sm:px-20 relative  my-16 lg:my-32  flex justify-center flex-col">
+        <div className="px-10 sm:px-20 relative my-32 lg:mt-60 lg:mb-32  flex justify-center flex-col">
             <h2 className="mb-10 text-lg text-red-400 lg:col-span-2 font-bold">CONTACT</h2>
             <div className="space-y-28">
                 <div className="leading-relaxed flex flex-col text-left mb-16">

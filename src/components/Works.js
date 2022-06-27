@@ -77,19 +77,19 @@ export default function Works() {
                 <div className="flex flex-col mb-32">
                     <article className="relative">
                         <div className="text-lg max-w-xs">
-                            <h3 className="text-4xl">IPO Tracker</h3>
-                            <p className="my-6 italic">ExpressJs, MongoDB</p>
-                            <p>opensource, REST API, backend only, in progress.</p>
+                            <h3 className="text-4xl">More On Github</h3>
+                            <p className="my-6 italic">ExpressJs, MongoDB, TailwindCSS, JS</p>
+                            <p>View other projects on Github.</p>
                         </div>
                         <a className="rounded-full bg-black border border-white w-20 h-20 mt-12 flex justify-center items-center block text-8xl relative visit-btn"
-                           href="https://github.com/sombii/ipo-tracker" target="_blank" rel="noreferrer">
+                           href="https://github.com/sombii" target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3}
                                       d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                             </svg>
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full flex justify-center items-center text-black visit-btn-overlay">
-                                <p className="text-xs visit-btn-overlay-txt">source</p>
+                                <p className="text-xs visit-btn-overlay-txt">github</p>
                             </div>
                         </a>
                         <p className="number font-bold absolute right-0 top-20">3</p>
