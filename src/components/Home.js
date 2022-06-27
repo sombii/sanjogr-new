@@ -42,8 +42,8 @@ export default function Home() {
                 const tl2 = gsap.timeline({
                     defaults: {
                         scrollTrigger: {
-                            trigger: ".work",
-                            start: "-100px bottom",
+                            trigger: ".skills",
+                            start: "-80px bottom",
                             end: "center center",
                             // end: () => "+=" + document.querySelector(".heading").offsetHeight,
                             scrub: 0.2,
@@ -131,7 +131,7 @@ export default function Home() {
                 {/*<div className="absolute w-4 h-4 bg-white rounded-full top-16 right-6"/>*/}
                 <span className="invisible">a</span>
             </div>
-            <div className="mt-20 sm:mt-0 mb-10 text-white text-[9vw] leading-none font-bold text-right uppercase">
+            <div className="mt-20 sm:mt-0 text-white text-[9vw] leading-none font-bold text-right uppercase">
                 <div className="overflow-hidden"><p className="heading head-ani-1">
                     <span className="outliner">Sanjog</span>Rai</p>
                 </div>
