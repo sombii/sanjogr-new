@@ -43,7 +43,7 @@ export default function Home() {
                     defaults: {
                         scrollTrigger: {
                             trigger: ".skills",
-                            start: "-80px bottom",
+                            start: "-40px bottom",
                             end: "center center",
                             // end: () => "+=" + document.querySelector(".heading").offsetHeight,
                             scrub: 0.2,

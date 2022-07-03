@@ -40,13 +40,16 @@ export default function Contact() {
             <div className="space-y-28">
                 <div className="leading-relaxed flex flex-col text-left mb-16 transition-all">
                     <span className="font-bold text-6xl md:text-9xl">SAY <b className="outliner namaste">HELLO</b></span>
-                    <span className="text-4xl md:text-5xl">LET'S GET IN TOUCH.</span>
+                    <span className="text-xl md:text-2xl pl-4">LET'S GET IN TOUCH.</span>
                 </div>
-                <div className="text-3xl md:text-5xl font-medium relative my-4 mr-10 transition-all">
+                <div className="text-3xl md:text-5xl font-medium relative my-10 mr-10 transition-all font-black">
                     <div className="flex flex-col items-start space-y-4">
-                        <span className="border-b-4 border-white"><a href="tel:9807123304">98-07123304</a></span>
-                        <span className="border-b-4 border-white"><a
-                            href="mailto:SANJOG@SOMBEX.COM">SANJOG@SOMBEX.COM</a></span>
+                        <span>
+                            <a href="tel:9807123304">98-07123304</a>
+                        </span>
+                        <span>
+                            <a href="mailto:SANJOG@SOMBEX.COM">SANJOG@SOMBEX.COM</a>
+                        </span>
                         <span>HETAUDA 5, BAGMATI, NEPAL</span>
                     </div>
                 </div>
